@@ -11,8 +11,8 @@ let elem = [
 ];
 
 // Calculer la somme des 2 élement et créer un nouvelle élement
-for (let i = 0; i <= 30; i++) {
-    sum = elem[i] + elem[i+1];
+for (let i = 2; i < 30; i++) {
+    sum = elem[i - 1] + elem[i - 2];
     if (sum % 2 === 0){
         elem.push(sum - 1)
     }
