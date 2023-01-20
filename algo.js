@@ -22,4 +22,4 @@ for (let i = 2; i < 30; i++) {
 }
 //Afficher le résultat du 30ieme
 console.log(elem)
-console.log('Le nombre de vitruve est de ' + elem[30 - 1]);
+console.log('Le nombre de vitruve est de ' + elem[29]);
